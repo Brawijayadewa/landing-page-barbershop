@@ -5,5 +5,11 @@ body{
     font-family: 'Poppins', Helvetica, sans-serif;
   } 
  #img-logo{
-  width: 3rem !important;
+  width: 2rem !important;
  } 
+ .btn-orange{
+    color: #fff;
+    background-color: #FF5151;
+    border-color: #FF5151;
+}
+ 
