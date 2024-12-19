@@ -12,4 +12,10 @@ body{
     background-color: #FF5151;
     border-color: #FF5151;
 }
- 
+    .text-orange
+    {
+      color: #FF5151;
+    }
+ .fs-14{
+  font-size: 14px !important;
+ }
