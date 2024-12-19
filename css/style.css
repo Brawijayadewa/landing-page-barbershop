@@ -18,6 +18,13 @@ body{
 .text-orange{
   color: #FF5151;
 }
+.card-color
+{
+  background-color: #FF5151 !important;
+}
+.card-outline{
+  border: 1px solid #FF5151 !important;
+}
 
 .fs-14{
   font-size: 14px !important;
