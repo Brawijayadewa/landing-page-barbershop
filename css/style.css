@@ -2,20 +2,30 @@
 
 
 body{
-    font-family: 'Poppins', Helvetica, sans-serif;
-  } 
- #img-logo{
+  font-family: 'Poppins', Helvetica, sans-serif;
+} 
+
+#img-logo{
   width: 2rem !important;
- } 
- .btn-orange{
-    color: #fff;
-    background-color: #FF5151;
-    border-color: #FF5151;
+} 
+
+.btn-orange{
+  color: #fff;
+  background-color: #FF5151;
+  border-color: #FF5151;
 }
-    .text-orange
-    {
-      color: #FF5151;
-    }
- .fs-14{
+
+.text-orange{
+  color: #FF5151;
+}
+
+.fs-14{
   font-size: 14px !important;
- }
+}
+
+.info-box {
+  background-color: #ff5a5a;
+  color: white;
+  text-align: center;
+  padding: 20px 75px 20px 20px;
+}
