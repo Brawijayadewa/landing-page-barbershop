@@ -36,3 +36,7 @@ body{
   text-align: center;
   padding: 20px 75px 20px 20px;
 }
+
+.bg-red {
+  background-color: #FF5151 !important;
+}
