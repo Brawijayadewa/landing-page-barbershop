@@ -29,6 +29,9 @@ body{
 .fs-14{
   font-size: 14px !important;
 }
+.fs-12{
+  font-size: 12px !important;
+}
 
 .info-box {
   background-color: #ff5a5a;
@@ -39,4 +42,26 @@ body{
 
 .bg-red {
   background-color: #FF5151 !important;
+}
+
+.card-outline {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ribbon {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 18em;
+  background: linear-gradient(45deg, #fca66f, #f97e3c);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  transform: translate(25%, -25%) rotate(45deg);
+  transform-origin: top right;
+  z-index: 10;
 }
