@@ -65,3 +65,17 @@ body{
   transform-origin: top right;
   z-index: 10;
 }
+
+.form-control.opacity {
+  background-color: rgb(0, 0, 0, 0.5); /* Set background color with 50% opacity */
+  color: white; /* Set text color to white */
+  opacity: 50%;
+}
+
+.form-control.opacity::placeholder {
+  color: white; /* Set placeholder text color to white */
+}
+
+.gap-3 {
+  gap: 3px;
+}
