@@ -21,6 +21,7 @@ body{
 .card-color
 {
   background-color: #FF5151 !important;
+  border-radius: 10px;
 }
 .card-outline{
   border: 1px solid #FF5151 !important;
@@ -78,4 +79,62 @@ body{
 
 .gap-3 {
   gap: 3px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  #img-bg {
+    width: 100% !important;
+    margin-top: 4.5em !important;
+  }
+
+  #section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section-2-1 {
+    display: flex;
+    margin-bottom: 4em;
+  }
+
+  #img-map {
+    margin-top: 3em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #section-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #img-map {
+    margin-top: 0em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #section-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #img-map {
+    margin-top: -30px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #section-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #img-map {
+    margin-top: -30px;
+  }
 }

@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-
-
     <title>Sign In | Test</title>
 
   </head>
@@ -52,12 +50,12 @@
       </nav>
       <section>
         <div class="">
-            <img class="w-100 h-75" src="img/bg-overlay.png" alt="">
+            <img class="w-100 h-75" id="img-bg" src="img/bg-overlay.png" alt="">
         </div>
       </section>
-      <section class="container d-flex justify-content-between mb-5">
+      <section class="container d-flex justify-content-between mb-5" id="section-2">
         <!-- Komponen pertama -->
-        <div class="d-flex py-3" style="width: 100%;">
+        <div class="d-flex py-3" id="section-2-1" style="width: 100%;">
           <div class="float-start text-end" style="width: 33.33%;">
             <h1 class="text-orange font-weight-bold">40+</h1>
             <span class="font-weight-light fs-14">Barberman</span>
@@ -73,10 +71,10 @@
         </div>
       
         <!-- Komponen kedua -->
-        <div class="d-flex mx-3" style="margin-top: -4em; width: 100%; gap: 2em;">
+        <div class="d-flex" id="section-2-2" style="margin-top: -4em; width: 100%; gap: 2em;">
           <div class="float-start" style="width: 50%;">
             <div class="info-box">
-              <div class="d-flex flex-column text-start mb-2">
+              <div class="d-flex flex-column text-start">
                 <img src="img/clock.png" alt="" class="w-25 mb-3">
                 <h5 class="d-flex text-start" style="font-size: 14px;">Open Hours</h5>
               </div>
@@ -88,9 +86,9 @@
           </div>
           <div class="float-end" style="width: 50%;">
             <div class="info-box">
-              <div class="d-flex flex-column text-start mb-2">
+              <div class="d-flex flex-column text-start">
                 <img src="img/headphone.png" alt="" class="w-25 mb-3">
-                <h5 class="d-flex text-start font-weight-light" style="font-size: 12px;">Lets Talk With Us</h5>
+                <h5 class="d-flex text-start" style="font-size: 14px;">Lets Talk With Us</h5>
               </div>
               <div>
                 <h5 class="d-flex text-start font-weight-light" style="font-size: 12px;">potongin@gmail.com</h5>
@@ -102,8 +100,8 @@
       </section>      
       <section class="container mb-5">
         <div class="row"> 
-          <div class="col-6">
-            <div class="div">
+          <div class="col-12 col-md-6">
+            <div class="">
               <img src="img/Left-Column.png" class="w-100" alt="">
             </div>
           </div>
@@ -114,7 +112,7 @@
               <p class="font-weight-light">The "Professional Barberman & Haircut With Certification Team" is a group of certified professionals skilled in haircutting and grooming. They excel in various styles and prioritize client satisfaction, leaving individuals with a stylish and confident look.</p>
             </div>
             <div class="row">
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                 <div class="d-flex align-items-center">
                   <div class="mb-2">
                     <img src="img/checklist.png" alt="">
@@ -165,8 +163,8 @@
       </section>
       <section class="container mb-5">
         <div class="row">
-          <div class="col-3">
-            <div class="card text-center card-color text-white" style="width: 15rem;">
+          <div class="col-12 col-md-4 col-lg-3 mb-3">
+            <div class="card text-center card-color text-white">
               <div class="card-body">
                 <div class="py-3 px-3">
                   <div class="mb-3">
@@ -178,8 +176,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card text-center card-outline" style="width: 15rem;">
+          <div class="col-12 col-md-4 col-lg-3 mb-3">
+            <div class="card text-center card-outline">
               <div class="card-body">
                 <div class="py-3 px-3">
                   <div class="mb-3">
@@ -191,8 +189,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card text-center card-color text-white" style="width: 15rem;">
+          <div class="col-12 col-md-4 col-lg-3 mb-3">
+            <div class="card text-center card-color text-white">
               <div class="card-body">
                 <div class="py-3 px-3">
                   <div class="mb-3">
@@ -204,8 +202,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card text-center card-outline" style="width: 15rem;">
+          <div class="col-12 col-md-4 col-lg-3 mb-3">
+            <div class="card text-center card-outline">
               <div class="card-body">
                 <div class="py-3 px-3">
                   <div class="mb-3">
@@ -223,7 +221,7 @@
         <div class="row d-flex flex-column">
           <div class="col">
             <div class="row">
-              <div class="col">
+              <div class="col-12 col-md-6">
                 <div class="">
                     <h6 class="text-orange font-weight-normal mb-3">WHY CHOICE US</h6>
                     <h5 class="font-weight-bold">We Give Best Work & Best Haircut & Treatments Experience For All Customers.</h5>
@@ -258,7 +256,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-6">
                 <div class="d-flex justify-content-center">
                   <img src="img/barbercut.png" alt="" class="w-75">
                 </div>
@@ -272,7 +270,7 @@
         <h1 class="font-weight-bold">Best recomendation price</h1>
         <p class="font-weight-light w-75 mx-auto">Best Recommendation Price refers to the top suggested value for a product or service, offering a balance between quality and affordabilit.</p>
         <div class="row mb-5">
-          <div class="col-12 col-sm-4 mb-3">
+          <div class="col-12 col-md-4 mb-3">
             <section class="card-outline border-3">
               <div class="p-3">
                 <div class="d-flex flex-column align-items-start">
@@ -320,7 +318,7 @@
               </div>
             </section>
           </div>
-          <div class="col-12 col-sm-4 mb-3">
+          <div class="col-12 col-md-4 mb-3">
             <section class="card-outline bg-danger border-3 text-white position-relative">
               <div class="ribbon">POPULAR</div>
               <div class="p-3">
@@ -369,7 +367,7 @@
               </div>
             </section>
           </div>
-          <div class="col-12 col-sm-4 mb-3">
+          <div class="col-12 col-md-4 mb-3">
             <section class="card-outline border-3">
               <div class="p-3">
                 <div class="d-flex flex-column align-items-start">
@@ -421,23 +419,23 @@
       </section>
       <section class="container mb-5">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <img src="img/Influencer1.png" alt="" class="w-100">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <img src="img/Influencer2.png" alt="" class="w-100">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <img src="img/Influencer3.png" alt="" class="w-100">
           </div>
         </div>
       </section>
       <section class="container mb-5">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <img src="img/influencer4.png" alt="" class="w-100">
           </div>
-          <div class="container col-6">
+          <div class="container col-12 col-md-6">
             <h6 class="text-orange font-weight-normal">Client Testimonial</h6>
             <h4 class="font-weight-bold">Many People Was Used Our Barber Services & They Happy With Best Feedback For Us</h4>
             <p class="font-weight-light mx-auto">Numerous individuals have availed our barber services and expressed their satisfaction through overwhelmingly positive feedback.</p>
@@ -461,7 +459,7 @@
       </section>
       <section class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h6 class="text-orange font-weight-normal mb-3">Lets Connected</h6>
             <h4 class="font-weight-bold">Lets Connected With Us & Get In Touch With Our Professional</h4>
             <p class="font-weight-light mx-auto">Let's connect with us and get in touch with our professionals for top-notch grooming services. We're here to elevate your style and enhance your grooming experience.</p>
@@ -484,7 +482,7 @@
                 <p class="mx-2 font-weight-light" style="font-size: 12px;">(+62) 851 1234 5678</p>
               </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card text-center card-color text-white">
               <div class="card-body">
                 <div class="">
@@ -523,11 +521,11 @@
         </div>
       </section>
       <section class="">
-        <img src="img/map-1.png" alt="" class="w-100 h-75" style="margin-top: -30px;">
+        <img src="img/map-1.png" alt="" class="w-100 h-75" id="img-map">
       </section>
       <footer class="bg-dark p-5">
         <div class="row">
-          <div class="col-5">
+          <div class="col-12 mb-3 col-md-4 col-lg-5">
             <div class="mb-3">
               <img id="img-logo" src="img/logo.png" alt="">
               <span class="font-weight-bolder fs-5 text-white">Potongin</span>
@@ -538,7 +536,7 @@
               </div>
               <button class="btn btn-orange d-flex align-items-start">SUBSCRIBE</button>
           </div>
-          <div class="col-3">
+          <div class="col-12 mb-3 col-md-4 col-lg-3">
             <h3 class="text-white">Quick Links</h3>
             <div>
              <div class="d-flex gap-3">
@@ -573,7 +571,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 mb-3 col-md-4 col-lg-4">
             <div>
               <h3 class="text-white">Our Company</h3>
               <p class="text-white">Open Every Day <br>
